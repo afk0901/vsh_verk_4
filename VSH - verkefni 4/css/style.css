@@ -1,0 +1,144 @@
+    body{
+    background-color:rgb(224,131,31);
+}
+
+
+    .pure-g,div ,article
+        {
+            border:1px solid yellow;
+            background-color: rgb(106,196,112);
+            -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+        }
+
+.pure-g a{
+    color:white;
+    text-decoration: none;
+}
+
+.pure-g a:hover{
+    color:rgb(224,232,220);
+}
+
+        .pure-g p{
+            display:inline-block;
+
+        }
+
+h1, h2, h3, h4{
+    color:red;
+    font-family:Engravers MT, arial, sans-serif;
+    text-align: center;
+}
+
+.h1signin{
+    margin-right:300px;
+}
+
+        .services{
+            padding:7px;
+            -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+        }
+
+.pafagaukur{
+margin-left:70px;
+margin-top: 20px;
+-webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box; 
+}
+
+.Vaccinations{
+    padding:10px;
+}
+
+.Checkups{
+    padding:10px;
+}
+
+.Senior_pets{
+    padding:10px;
+}
+
+.Diet_Plans{
+    padding:10px;
+}
+
+.Keeping_healthy{
+    padding:10px;
+}
+
+input{
+   color:green;
+}
+
+
+.pure-table{
+width:100%;
+background-color: white;
+}
+
+
+.pure-g .button-xsmall {
+            font-size: 85%;
+            font-weight:bold;
+            color:white;
+        }
+
+img{
+    max-width:100%;
+    height:auto;
+    display: inline-block;
+}
+
+figure{
+padding:5px;
+}
+
+
+.tabs {
+  position: relative;   
+  min-height: 200px; /* This part sucks */
+  clear: both;
+  margin: 25px 0;
+}
+.tab {
+  float: left;
+}
+.tab label {
+  background: #eee; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  margin-left: -1px; 
+  position: relative;
+  left: 1px; 
+}
+.tab [type=radio] {
+  display: none;   
+}
+.content {
+  position: absolute;
+  top: 28px;
+  left: 0;
+ background-color: rgb(106,196,112);
+  height:250%;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  border: 1px solid #ccc; 
+}
+[type=radio]:checked ~ label {
+  background: darkred;
+  border-bottom: 1px solid white;
+  z-index: 2;
+}
+[type=radio]:checked ~ label ~ .content {
+  z-index: 1;
+}
+
+footer {
+    color:red;
+}
